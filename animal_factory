@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 from enum import Enum
 
 
+""" For the puprose of learning classes and abstract factories I created a very simple example using cats and dogs with several characteristics"""
+
 class Species(Enum):
     Dog = 0
     Cat = 1
